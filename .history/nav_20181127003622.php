@@ -58,9 +58,9 @@ function foo(){
                 if(isset($_SESSION['loginSuccess'])){
                         if($_SESSION['loginSuccess'] == true){
 
-                                echo " <a href='logout.php' class='button1'>Wyloguj!</a> 
-                                <span style='color:red;' class='loggedin'>Witaj, ".$_SESSION["loginName"]."!</span>";
-
+                                echo "<a href='logout.php' class='btn btn-default' id='logoutbutton'>WYLOGUJ</a>
+                                <span style='color:red;' class='loggedin'>Witaj, ".$_SESSION["loginName"]."!</span>;
+                                
 
                         }else{
                           foo();}
@@ -69,4 +69,5 @@ function foo(){
                 }
                 ?>
 
-      </div>  </nav>
+      </div>
+    </nav>

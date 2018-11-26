@@ -60,7 +60,7 @@ function foo(){
 
                                 echo " <a href='logout.php' class='button1'>Wyloguj!</a> 
                                 <span style='color:red;' class='loggedin'>Witaj, ".$_SESSION["loginName"]."!</span>";
-
+                               
 
                         }else{
                           foo();}
@@ -69,4 +69,5 @@ function foo(){
                 }
                 ?>
 
-      </div>  </nav>
+      </div>
+    </nav>

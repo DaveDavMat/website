@@ -13,7 +13,6 @@ function foo(){
   echo $txt;
 }
 
-var_dump($_SESSION);
                 if(isset($_SESSION['loginSuccess'])){
                         if($_SESSION['loginSuccess'] == true){
                                 echo "<span style='color:red;'>Witaj, ".$_SESSION["loginName"]."!</span>

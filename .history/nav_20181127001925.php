@@ -34,11 +34,6 @@
             <span class="icon-bar">666</span>
           </button>
           <a class="navbar-brand" href="index.php">GAMEINFO</a>
-            
-
-
-
-        </div>
 
          <?php
 function foo(){
@@ -57,10 +52,8 @@ function foo(){
 
                 if(isset($_SESSION['loginSuccess'])){
                         if($_SESSION['loginSuccess'] == true){
-
-                                echo " <a href='logout.php' class='button1'>Wyloguj!</a> 
-                                <span style='color:red;' class='loggedin'>Witaj, ".$_SESSION["loginName"]."!</span>";
-
+                                echo "<span style='color:red;'>Witaj, ".$_SESSION["loginName"]."!</span>
+                                <a href='logout.php' class='btn btn-default'>WYLOGUJ</a>";
 
                         }else{
                           foo();}
@@ -69,4 +62,7 @@ function foo(){
                 }
                 ?>
 
-      </div>  </nav>
+
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>

@@ -1,0 +1,45 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.box {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 7%;
+}
+
+
+html {
+    overflow-y:scroll;
+}
+
+body { min-height:101%;
+ }
+
+#myCarousel{
+    margin-top:1%;
+}
+
+.loggedin{
+float:right;
+}
+
+#logoutbutton{
+color:red;
+float:right;
+
+}
+
+
+
+
+
+
+
+
+
+
+

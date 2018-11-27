@@ -1,0 +1,73 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.box {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 7%;
+}
+
+
+html {
+    overflow-y:scroll;
+}
+
+body { min-height:101%;
+ }
+
+#myCarousel{
+    margin-top:4%;
+}
+
+.loggedin{
+float:right;
+}
+
+a.button1{
+padding:0.35em 1.2em;
+border:0.1em solid #000000;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#000000;
+background-color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+float:right;
+margin-left:20px;
+}
+a.button1:hover{
+color:#FFFFFF;
+background-color:#000000;
+}
+@media all and (max-width:30em){
+ a.button1{
+display:block;
+margin:0.4em auto;
+}
+}
+
+.logo{
+height:50px;
+width:50px;
+float:left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
